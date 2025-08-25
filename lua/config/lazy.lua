@@ -38,7 +38,6 @@ vim.keymap.set("n", "<C-g>", function()
   require("telescope.builtin").git_files()
 end, { desc = "Find git files" })
 
-
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
