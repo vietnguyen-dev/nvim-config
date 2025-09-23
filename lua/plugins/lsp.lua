@@ -12,4 +12,3 @@ return {
     lspconfig.tailwindcss.setup({})
   end,
 }
-
